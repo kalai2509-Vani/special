@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For Someone Special ❤️</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: pink;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .letter {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        button {
+            background: #ff4d6d;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #e63956;
+        }
+
+        #message {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="letter">
+
+        <h1>❤️ Welcome ❤️</h1>
+
+        <p>I have something special for you...</p>
+
+        <button onclick="showMessage()">
+            Click Me ❤️
+        </button>
+
+        <div id="message">
+
+            <h1>❤️ A Letter For You ❤️</h1>
+
+            <p>
+                Thank you for being part of my life.
+                Every moment we share is special to me.
+                Your smile makes my day brighter, and your presence
+                makes my heart feel at peace.
+            </p>
+
+            <p>
+                No matter where life takes us, I will always appreciate
+                the memories we created together.
+            </p>
+
+            <h3>With Love ❤️</h3>
+
+            <p>Kalaivani</p>
+
+        </div>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
